@@ -15,7 +15,6 @@ const signup = async (userData) => {
     throw error.response.data;
   }
 };
-
 const login = async (credentials) => {
   try {
     const response = await apiClient.post('/auth/login', credentials);

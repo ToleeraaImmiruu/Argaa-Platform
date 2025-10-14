@@ -7,7 +7,6 @@ const apiClient = axios.create({
     'Content-Type': 'application/json',
   },
 });
-
 const signup = async (userData) => {
   try {
     const response = await apiClient.post('/auth/signup', userData);

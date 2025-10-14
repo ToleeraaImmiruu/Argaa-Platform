@@ -23,7 +23,6 @@ const login = async (credentials) => {
     throw error.response.data;
   }
 };
-
 const getProfile = async (token) => {
   try {
     const response = await apiClient.get('/profile/me', {

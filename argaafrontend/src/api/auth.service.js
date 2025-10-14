@@ -14,7 +14,6 @@ const signup = async (userData) => {
   } catch (error) {
     throw error.response.data;
   }
-
 };
 const login = async (credentials) => {
   try {

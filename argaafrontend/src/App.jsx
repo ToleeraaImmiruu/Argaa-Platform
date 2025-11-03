@@ -95,7 +95,6 @@ function App() {
               </ProtectedRoute>
               } 
             />
-
             {/* Protected Routes for Guides */}
             <Route 
               path="/create-tour" 

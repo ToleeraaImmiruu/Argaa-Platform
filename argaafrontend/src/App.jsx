@@ -25,7 +25,7 @@ import EditTourPage from './pages/EditTourPage';
 import AboutPage from './pages/AboutPage';
 
 // We can now remove the placeholder from AdminDashboard.jsx and use the real one
-// We'll also add a placeholder for a guide's specific tours page
+
 const MyToursPage = () => <div className="p-10"><h2>My Tours Page</h2><p>This page will show a list of tours created by the guide.</p></div>;
 
 function App() {

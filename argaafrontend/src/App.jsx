@@ -15,7 +15,6 @@ import AdminTourDetailPage from './pages/AdminTourDetailPage';
 import TourDetailPage from './pages/TourDetailPage'; 
 import Chatbot from './components/Chatbot';
 import { AnimatePresence } from 'framer-motion';
-
 import { ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/react/24/outline';
 import CustomToursPage from './pages/CustomToursPage';
 import CreateCustomTourPage from './pages/CreateCustomTourPage';

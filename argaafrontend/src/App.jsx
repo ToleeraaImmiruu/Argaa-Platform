@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import './index.css'; 
+
 import { Toaster } from 'react-hot-toast'; 
 import AdminDashboard from './pages/AdminDashboard';
 import AdminTourDetailPage from './pages/AdminTourDetailPage';

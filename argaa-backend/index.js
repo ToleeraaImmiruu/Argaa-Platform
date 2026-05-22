@@ -9,7 +9,6 @@ connectDB();
 const app = express();
 // --- Middlewares ---
 app.use(express.json());
-
 // --- Routes ---
 const authRoutes = require('./routes/auth.routes');
 const tourRoutes = require('./routes/tour.routes');
